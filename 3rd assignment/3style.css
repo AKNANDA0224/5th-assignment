@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+#app {
+    max-width: 480px;
+    margin: 40px auto;
+    background: #fff;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.08);
+    padding: 24px;
+    border-radius: 14px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccd8e1;
+    border-radius: 6px;
+    font-size: 15px;
+}
+button {
+    padding: 10px;
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #1d4ed8;
+}
+.contact-list {
+    margin: 0;
+    padding: 0;
+}
+.contact-card {
+    padding: 18px 12px;
+    background: #f1f5f9;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.contact-card strong {
+    font-size: 16px;
+}
+.contact-card span {
+    color: #555;
+    font-size: 15px;
+}
